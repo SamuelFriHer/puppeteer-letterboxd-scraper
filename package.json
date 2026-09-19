@@ -1,5 +1,5 @@
 {
-  "name": "letterboxd-scraper",
+  "name": "puppeteer-letterboxd-scraper",
   "version": "1.0.0",
   "description": "",
   "main": "dist/main.js",
@@ -12,7 +12,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git@github-personal:SamuelFriHer/letterboxd-scraper.git"
+    "url": "git@github-personal:SamuelFriHer/puppeteer-letterboxd-scraper.git"
   },
   "prettier": {
     "singleQuote": true,
