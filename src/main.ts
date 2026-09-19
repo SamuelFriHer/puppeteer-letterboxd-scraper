@@ -12,7 +12,7 @@ import { ExtractCatalogUseCase } from './application/ExtractCatalogUseCase';
  */
 async function bootstrap() {
   const logger = new ConsoleLogger();
-  logger.header('\n🎬 Bienvenido al Scraper de Letterboxd\n');
+  logger.header("\n🎬 Bienvenido a Puppeteer's Letterboxd Scraper\n");
 
   const inputController = new UserInputController();
   const config = inputController.promptConfiguration();
