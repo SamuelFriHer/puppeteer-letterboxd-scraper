@@ -1,8 +1,8 @@
-# Letterboxd Scraper
+# Puppeteer's Letterboxd Scraper
 
 ## Overview
 
-`letterboxd-scraper` is a tool for scraping movie information from [Letterboxd](https://letterboxd.com). It allows you to gather details such as title, release year, directors, and Metascore for popular movies, movies from a specific year or decade, or movies from a specific director. The results are filtered (only movies with a Metascore > 80) and seamlessly saved into organized CSV files.
+`puppeteer-letterboxd-scraper` is a tool for scraping movie information from [Letterboxd](https://letterboxd.com). It allows you to gather details such as title, release year, directors, and Metascore for popular movies, movies from a specific year or decade, or movies from a specific director. The results are filtered (only movies with a Metascore > 80) and seamlessly saved into organized CSV files.
 
 ## Features
 
@@ -30,8 +30,8 @@ Node.js and npm are **not** required to be installed on your local machine, as t
 1. Clone this repository:
 
    ```bash
-   git clone git@github.com:SamuelFriHer/letterboxd-scraper.git
-   cd letterboxd-scraper
+   git clone git@github.com:SamuelFriHer/puppeteer-letterboxd-scraper.git
+   cd puppeteer-letterboxd-scraper
    ```
 
 2. Create a `.env` file with your user and group IDs to avoid file permission issues with the generated output files:
